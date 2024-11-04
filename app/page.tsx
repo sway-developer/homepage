@@ -100,7 +100,7 @@ export default function Page() {
               <span className="text-amber-600 font-bold">2-е место</span> -
               Центр психологических и социологических исследований
             </p>
-            <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
+            <div className="pt-2 text-xs flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
                 href="https://github.com/sway-developer/psycho-prisma"
                 className="text-blue-600 underline underline-offset-4"
@@ -137,7 +137,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
+            <div className="pt-2 text-xs flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
                 href="https://github.com/sway-developer/arc"
                 className="text-blue-600 underline underline-offset-4"
