@@ -1,10 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   return (
-    <main className="py-20 max-w-6xl w-full mx-auto min-h-screen bg-white">
-      <div className="flex flex-row items-center gap-4 pb-4">
+    <main className="py-4 lg:py-20 max-w-6xl w-full mx-auto min-h-screen bg-white">
+      <div className="text-xs lg:text-[16px] flex flex-row items-center justify-center lg:justify-normal gap-4 pb-4">
         <Link href="/" className="text-blue-600 underline underline-offset-4">
           GitHub
         </Link>
@@ -21,7 +21,7 @@ export default function Page() {
           LinkedIn
         </Link>
 
-        <div className="ml-auto flex flex-row items-center gap-4">
+        <div className="ml-auto hidden lg:flex flex-row items-center gap-4">
           <Link href="/" className="text-blue-600 underline underline-offset-4">
             Личный блог
           </Link>
@@ -32,12 +32,12 @@ export default function Page() {
         </div>
       </div>
       <div className="pt-2 flex flex-col gap-4">
-        <div className="flex flex-row gap-4 items-center">
+        <div className="px-4 lg:p-0 flex flex-row gap-4 items-center">
           <Image
             src={"/avatar.jpg"}
             alt="profile photo"
-            width={80}
-            height={80}
+            width={73}
+            height={73}
             className="rounded-lg"
           />
           <div>
@@ -49,20 +49,22 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-between">
-          <p className="text-xl font-bold text-zinc-800">Личные проекты</p>
+        <div className="px-4 lg:p-0 flex flex-row items-center justify-between">
+          <p className="text-md lg:text-xl font-bold text-zinc-800">
+            Личные проекты
+          </p>
           <Link
             href="/"
-            className="text-sm text-blue-600 underline underline-offset-4"
+            className="text-xs lg:text-sm text-blue-600 underline underline-offset-4"
           >
             Показать все
           </Link>
         </div>
-        <div className="w-full grid grid-cols-2 gap-4">
+        <div className="w-full grid grid-cols-1 px-4 lg:p-0 lg:grid-cols-2 gap-4">
           <div className="h-full p-6 border rounded-md flex flex-col gap-2">
             <Link
               href="/"
-              className="text-blue-600 underline underline-offset-4"
+              className="text-sm lg:text-md text-blue-600 underline underline-offset-4"
             >
               PsychoPrisma - платформа психологического тестирования
             </Link>
@@ -83,30 +85,30 @@ export default function Page() {
               <span className="text-amber-600 font-bold">2-е место</span> -
               Центр психологических и социологических исследований
             </p>
-            <div className="pt-2 text-sm flex flex-row items-center gap-4">
+            <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
                 href="/"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Домашняя страница
               </Link>
-              <span className="text-zinc-600 font-bold text-md">/</span>
+              <span className="text-zinc-600 font-bold text-md hidden lg:block">
+                /
+              </span>
               <Link
                 href="/"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Исходный код
               </Link>
-              <span className="ml-auto text-zinc-600 text-xs">
-                03-07-2024 - 01-11-2024
-              </span>
+              <span className="ml-auto text-zinc-600 text-xs">03-07-2024</span>
             </div>
           </div>
           <div className="h-full p-6 border rounded-md flex flex-col justify-between gap-2">
             <div className="flex flex-col gap-2">
               <Link
                 href="/"
-                className="text-blue-600 underline underline-offset-4"
+                className="text-sm lg:text-md text-blue-600 underline underline-offset-4"
               >
                 Arc - язык программирования (в разработке)
               </Link>
@@ -120,23 +122,23 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="pt-2 text-sm flex flex-row items-center gap-4">
+            <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
                 href="/"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Домашняя страница
               </Link>
-              <span className="text-zinc-600 font-bold text-md">/</span>
+              <span className="text-zinc-600 font-bold text-md hidden lg:block">
+                /
+              </span>
               <Link
                 href="/"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Исходный код
               </Link>
-              <span className="ml-auto text-zinc-600 text-xs">
-                04-11-2024 - настоящее время
-              </span>
+              <span className="ml-auto text-zinc-600 text-xs">03-07-2024</span>
             </div>
           </div>
         </div>
