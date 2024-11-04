@@ -42,7 +42,7 @@ export default function Page() {
             href="/contact"
             className="text-blue-600 underline underline-offset-4"
           >
-            Контакные данные
+            Контактные данные
           </Link>
         </div>
       </div>
