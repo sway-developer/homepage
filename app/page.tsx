@@ -5,15 +5,24 @@ export default function Page() {
   return (
     <main className="py-4 lg:py-20 max-w-6xl w-full mx-auto min-h-screen bg-white">
       <div className="text-xs lg:text-[16px] flex flex-row items-center justify-center lg:justify-normal gap-4 pb-4">
-        <Link href="/" className="text-blue-600 underline underline-offset-4">
+        <Link
+          href="https://github.com/sway-developer"
+          className="text-blue-600 underline underline-offset-4"
+        >
           GitHub
         </Link>
         <span className="text-zinc-600 font-bold text-md">/</span>
-        <Link href="/" className="text-blue-600 underline underline-offset-4">
+        <Link
+          href="https://www.instagram.com/v0.sway/"
+          className="text-blue-600 underline underline-offset-4"
+        >
           Instagram
         </Link>
         <span className="text-zinc-600 font-bold text-md">/</span>
-        <Link href="/" className="text-blue-600 underline underline-offset-4">
+        <Link
+          href="https://t.me/v0_sway"
+          className="text-blue-600 underline underline-offset-4"
+        >
           Telegram
         </Link>
         <span className="text-zinc-600 font-bold text-md">/</span>
@@ -22,11 +31,17 @@ export default function Page() {
         </Link>
 
         <div className="ml-auto hidden lg:flex flex-row items-center gap-4">
-          <Link href="/" className="text-blue-600 underline underline-offset-4">
+          <Link
+            href="/blog"
+            className="text-blue-600 underline underline-offset-4"
+          >
             Личный блог
           </Link>
           <span className="text-zinc-600 font-bold text-md">/</span>
-          <Link href="/" className="text-blue-600 underline underline-offset-4">
+          <Link
+            href="/contact"
+            className="text-blue-600 underline underline-offset-4"
+          >
             Контакные данные
           </Link>
         </div>
@@ -63,7 +78,7 @@ export default function Page() {
         <div className="w-full grid grid-cols-1 px-4 lg:p-0 lg:grid-cols-2 gap-4">
           <div className="h-full p-6 border rounded-md flex flex-col gap-2">
             <Link
-              href="/"
+              href="https://github.com/sway-developer/psycho-prisma"
               className="text-sm lg:text-md text-blue-600 underline underline-offset-4"
             >
               PsychoPrisma - платформа психологического тестирования
@@ -87,7 +102,7 @@ export default function Page() {
             </p>
             <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
-                href="/"
+                href="https://github.com/sway-developer/psycho-prisma"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Домашняя страница
@@ -96,7 +111,7 @@ export default function Page() {
                 /
               </span>
               <Link
-                href="/"
+                href="https://github.com/sway-developer/psycho-prisma"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Исходный код
@@ -107,7 +122,7 @@ export default function Page() {
           <div className="h-full p-6 border rounded-md flex flex-col justify-between gap-2">
             <div className="flex flex-col gap-2">
               <Link
-                href="/"
+                href="https://github.com/sway-developer/arc"
                 className="text-sm lg:text-md text-blue-600 underline underline-offset-4"
               >
                 Arc - язык программирования (в разработке)
@@ -124,7 +139,7 @@ export default function Page() {
 
             <div className="pt-2 text-xs lg:text-sm flex flex-row items-center gap-1.5 lg:gap-4">
               <Link
-                href="/"
+                href="https://github.com/sway-developer/arc"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Домашняя страница
@@ -133,7 +148,7 @@ export default function Page() {
                 /
               </span>
               <Link
-                href="/"
+                href="https://github.com/sway-developer/arc"
                 className="text-blue-600 underline underline-offset-4"
               >
                 Исходный код
